@@ -1,0 +1,77 @@
+/* menu.css desenvolvido por: João Vitor de Souza Lima */
+
+/* Atribuindo estilo ao 'body' */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Atribuindo estilo ao 'header' */
+header{
+    font-family: Times New Roman;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 16, 16);
+    padding: 1em;
+    border: 2px solid rgb(105, 105, 105);
+    
+}
+
+/* Atribuindo estilo ao 'div' */
+div{
+    height: 200;
+    width: 550;
+    border: 1;
+}
+
+/* Atribuindo estilo ao formulário */
+form{
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+/* Atribuindo estilo ao 'form input' e 'form button' */
+form input, form button{
+    font-size: 1.2em;
+    border-radius: 0.2;
+    border: none;
+    padding: 0.2em;
+}
+
+/* Atribuindo estilo ao 'form button' */
+form button{
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+/* Atribuindo estilo ao 'form button' */
+form button:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+
+/* Atribuindo estilo a 'table' */
+table{
+    justify-content: space-around;
+    background-color: #b2b2b2;
+    border: 5px solid #b2b2b2;
+    width: 100%;
+    height: 100%;
+}
+
+/* Atribuindo estilo a 'tr' */
+tr{
+    width: 150;
+    width: 100;
+    height: 40;
+    border: 1;
+}
+
+/* Atribuindo estilo a 'img' */
+.img{
+    height: 300px;
+    width: 500px;
+    align-items: center;
+}
