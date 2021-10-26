@@ -1,0 +1,130 @@
+/* footer.css desenvolvido por: Nickolas Rodrigues Luz */
+
+/* Modificando estilo de 'footer' */
+footer{
+    background-color: rgb(104, 104, 104);
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 9px solid solid #3381f3;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Modificando estilo de 'footer h2', 'footer p', 'footer a' e 'footer span' */
+footer h2, footer p, footer a, footer span{
+    color: #d1d1d1;
+}
+
+/* Modificando estilo de 'footer h2' */
+footer h2{
+    font-weight: 400;
+}
+
+/* Modificando estilo de 'footer a' */
+footer a{
+    text-decoration: none;
+}
+
+/* Modificando estilo de 'footer ul' */
+footer ul{
+    padding: 0;
+}
+
+/* Modificando estilo de 'footer li' */
+footer li{
+    list-style: none;
+}
+
+/* Modificando estilo de 'div-footer-box' */
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+/* Modificando estilo de 'footer .wrapper::after' */
+footer .wrapper::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* Modificando estilo de 'company-footer' */
+.company-footer{
+    width: 80%;
+}
+
+/* Modificando estilo de 'company-footer h2' */
+.company-footer h2{
+    margin-top: 20px;
+}
+
+/* Modificando estilo de 'company-footer h2' e 'company-footer p' */
+.company-footer h2, .company-footer p{
+    margin-bottom: 20px;
+}
+
+/* Modificando estilo de 'footer-list li' */
+.footer-list li{
+    margin-bottom: 15px;
+}
+
+/* Modificando estilo de 'footer-list a' */
+.footer-list a{
+    transition: .5s;
+}
+
+/* Modificando estilo de 'footer-list a:hover' */
+.footer-list a:hover{
+    color: #FFF;
+}
+
+/* Modificando estilo de 'footer-list li:after' */
+.footer-list li:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* Modificando estilo de 'articles-footer' */
+.articles-footer{
+    width: 80%;
+}
+
+/* Modificando estilo de 'footer-list.footer-article-list span' */
+.footer-list.footer-article-list span{
+    display: block;
+    float: none;
+}
+
+/* Modificando estilo de 'fab' */
+.fab{
+    font-size: 35px;
+    margin-left: 10px;
+    ;
+}
+
+/* Modificando estilo de 'fal' */
+.fal{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+/* Modificando estilo de 'footer-list li span' */
+.footer-list li span{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+
+/* Modificando estilo de 'footer-bottom' */
+.footer-bottom{
+    border-top: 2px solid #b2b2b2;
+}
+
+/* Modificando estilo de 'footer-bottom p' */
+.footer-bottom p{
+    font-weight: 600;
+    margin-top: 40px;
+}

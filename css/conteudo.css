@@ -1,0 +1,41 @@
+/* conteudo.css desenvolvido por: Vitor dos Santos Oliveira */
+
+/* Modificação de aparência em 'body' */
+body{
+    font-family: arial;
+    background-image: linear-gradient(45deg, rgb(121, 121, 121), rgb(248, 94, 94));
+}
+
+/* Modificação de aparência em 'div h1' */
+div h1{
+    background-image: linear-gradient(45deg, rgb(233, 233, 233), rgb(248, 94, 94));
+    text-shadow: 1px 1px #ffffff;
+    padding: 15px;
+    width: 30%;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+}
+
+iframe{
+    border:5px solid rgb(255, 164, 164)
+}
+
+.propaganda{
+    border:5px solid rgb(255, 164, 164);
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+.clique{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(4, 0, 255);
+}
